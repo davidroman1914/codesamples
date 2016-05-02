@@ -64,7 +64,7 @@ exports.load = function( app, mysql ){
 
 		if (found) { // if we do the video id from the memcached object then allow the app to contine by rendering the page
 			res.render('index', { 
-				title : 'Video Library & Tutorials for Gel Jewelry | Gel-a-Peel',
+				title : 'Video Library',
 				videos: req.videos,
 				categories: req.videocategories, 
 				page : "videos", 
